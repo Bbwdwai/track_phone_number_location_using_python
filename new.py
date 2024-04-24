@@ -5,8 +5,8 @@ import folium
 
 Key = "6d6f969fd9024ac8afde957f0c86a5ba"
 
-number = input("Enter phone number with country code:")
-check_number = phonenumbers.parse(number)
+number = ("+2348061119081:")
+check_number = phonenumbers.parse("+2348061119081:")
 number_location = geocoder.description_for_number(check_number, "en")
 print(number_location)
 
